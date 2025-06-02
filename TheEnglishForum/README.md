@@ -31,7 +31,7 @@
 ### Các bước chạy ứng dụng
 1. Clone repo:
    ```bash
-   git clone https://github.com/yourusername/englishforum.git
+   git clone https://github.com/NguyenDuyHieu49/EnglishForum
    Mở project bằng Android Studio.
 
 2. Cấu hình Firebase (nếu sử dụng):
