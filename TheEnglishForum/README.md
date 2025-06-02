@@ -34,11 +34,11 @@
    git clone https://github.com/yourusername/englishforum.git
    Mở project bằng Android Studio.
 
-Cấu hình Firebase (nếu sử dụng):
+2. Cấu hình Firebase (nếu sử dụng):
 
-Tải file google-services.json từ Firebase Console và đặt vào thư mục app/.
+3. Tải file google-services.json từ Firebase Console và đặt vào thư mục app/.
 
-Chạy ứng dụng:
+4. Chạy ứng dụng:
 
 bash
 ./gradlew run
