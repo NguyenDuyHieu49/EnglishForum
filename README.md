@@ -55,34 +55,40 @@ Phát triển ứng dụng **diễn đàn tiếng Anh chuyên biệt** với:
 ### 🖼️ Giao diện ứng dụng
 
 #### 1. Màn hình đăng nhập  
-![Đăng nhập](assets\login.png)
+![Đăng nhập]![login](https://github.com/user-attachments/assets/111d142d-2175-456d-b4a6-b4f4da58a2a5)
 
 #### 2. Màn hình đăng ký  
-![Đăng ký](assets\register.png)
+![Đăng ký]![register](https://github.com/user-attachments/assets/daf7bf5e-a127-4ec1-82b6-1d3c35ed2b43)
 
 #### 3. Trang chính  
-![Trang chính](assets\home.png)
+![Trang chính]![home](https://github.com/user-attachments/assets/67951ac4-727b-4691-9731-7863bf612f6c)
+
 
 #### 4. Câu hỏi hằng ngày  
-![Câu hỏi hằng ngày](assets\dailyquestions.png)
+![Câu hỏi hằng ngày]![dailyquestions](https://github.com/user-attachments/assets/9309b125-c71b-4433-8a1e-893f5c9c61e5)
+
 
 #### 5. Trang cá nhân  
-![Trang cá nhân](assets\profile.png)
+![Trang cá nhân]![profile](https://github.com/user-attachments/assets/5b436086-7b68-4837-9f20-03713230c39f)
+
 
 #### 6. UI Settings  
-![UI Settings](assets\uisetting.png)
+![UI Settings]![uisetting](https://github.com/user-attachments/assets/aba1ec6b-56f1-4780-8747-930d3d9d9f1b)
+
 
 #### 7. Cài đặt trang cá nhân  
-![UserProfile](assets\userprofile.png)
+![UserProfile]![userprofile](https://github.com/user-attachments/assets/3926ebd7-b670-445b-bdb2-6e9b4bfcd6dd)
 
 #### 8. Thông báo  
-![Thông báo](assets\notification.png)
+![Thông báo]![notification](https://github.com/user-attachments/assets/29fba8e0-ecc3-4c29-98f2-db1a7f4d5bca)
+
 
 #### 9. Hỗ trợ
-![Help](assets\help.png)
+![Help]![help](https://github.com/user-attachments/assets/7ab463d6-5016-478b-87a9-0862b0674659)
 
 #### 10. Quên mật khẩu 
-![ForgotPassword](assets\forgotpassword.png)
+![ForgotPassword]![forgotpassword](https://github.com/user-attachments/assets/090034fb-5365-4170-a29d-dbb8377cb79b)
+
 
 ---
 
