@@ -6,26 +6,26 @@ import com.example.hellothegioi.data.model.Comment
 object ExampleComment {
     private val exampleComment = listOf(
         Comment(
-            userName = "Nguyễn Duy Hiệu",
+            userName = "Jack Davit",
             avatar = R.drawable.ic_user_avatar,
             time = "1 min",
             text = "Good idea"
         ),
         Comment(
-            userName = "Vũ Đức Minh",
+            userName = "Lương Kết",
             avatar = R.drawable.ic_user_avatar,
             time = "3 day",
             text = "First Comment",
             likes = 1
         ),
         Comment(
-            userName = "Hieu Nguyen",
+            userName = "Trần Công",
             avatar = R.drawable.ic_user_avatar,
             time = "30 mins",
             text = "can i cooperate with you"
         ),
         Comment(
-            userName = "Minh Vu",
+            userName = "Nam Nguyễn",
             avatar = R.drawable.ic_user_avatar,
             time = "1 hour",
             text = "Bro, you win",
@@ -33,13 +33,13 @@ object ExampleComment {
             replies = 2
         ),
         Comment(
-            userName = "Thu Thuy",
+            userName = "Hoàng Hiệp",
             avatar = R.drawable.ic_user_avatar,
             time = "2 day",
             text = "He he, thank you"
         ),
         Comment(
-            userName = "Donald Trump",
+            userName = "Donal Trump",
             avatar = R.drawable.ic_user_avatar,
             time = "45 min",
             text = "I can hire you"
