@@ -1,8 +1,8 @@
 # 🇬🇧 The English Forum 
 
 ## Thành viên nhóm
-Nguyễn Duy Hiệu.MSV 23010363
-Vũ Đức Minh.MSV 23010381
+-Nguyễn Duy Hiệu.MSV 23010363
+-Vũ Đức Minh.MSV 23010381
 ## 📝 I. Tóm tắt
 
 Báo cáo giới thiệu và phân tích ứng dụng di động **The English Forum** – một diễn đàn học tiếng Anh tích hợp chức năng luyện tập hằng ngày và cá nhân hóa.  
@@ -116,18 +116,59 @@ Nếu lỗi font/màu xảy ra, kiểm tra file theme/ hoặc SettingsViewModel.
 
 
 ## 📁 VI. Cấu trúc dự án
-Hellothegioi/
-├── MainActivity.kt
-├── ui/
-│   ├── components/        # Giao diện: bài viết, bình luận
-│   ├── navigation/        # Điều hướng bottom bar
-│   ├── screens/           # Tất cả màn hình (Login, Home, Profile, Help,...)
-│   ├── theme/             # Cấu hình giao diện (màu sắc, font, kích cỡ)
-├── data/
-│   ├── model/             # Class dữ liệu: User, Post, Comment, Notification
-│   ├── repository/        # Dữ liệu mẫu (demo)
-└── assets/
-    └── screens/           # Ảnh minh họa UI
+IV.LẬP TRÌNH
+Mô tả cấu trúc chương trình
+ Hellothegioi/
+|-- MainActivity.kt   Khởi chạy ứng dụng, hiển thị các giao diện chính và thực hiện các điều hướng
+|-- ui/
+     |-- componets/
+          |-- CommentItem.kt  Giao diện cơ bản của một bình luận
+          |-- PostItemHorizontal.kt  Giao diện cơ bản của một bài viết
+      |-- navigation/
+          |-- BottomNavigationBar.kt  Định nghĩa các chức năng chính trong ứng dụng như: home, search, question, notification, profile
+          |-- BottomNavigationItem.kt  Định nghĩa các item của các chức năng chính
+      |-- screens/ 
+          |-- CFInstructor.kt  Giao diện gửi xác minh tài khoản giáo viên
+          |-- CommentScreen.kt  Giao diện hiển thị danh sách các bài viết của tài khoản và bình luận trong một bài viết
+          |-- CreateUserScreen.kt  Giao diện đăng ký
+          |-- DailyQuestionScreen.kt  Giao diện câu hỏi hằng ngày
+          |-- ForgotPasswordScreen.kt  Giao diện quên mật khẩu
+          |-- HelpScreen.kt  Giao diện màn hình trợ giúp
+          |-- HomeScreen.kt  Giao diện màn hình chính
+          |-- LoginScreen.kt  Giao diện đăng nhập
+          |-- NewPostScreen.kt  Giao diện tạo bài viết
+          |-- NotificationScreen.kt  Giao diện màn hình thông báo
+          |-- ProfileScreen.kt  Giao diện thông tin tài khoản
+          |-- QuestionComponents.kt  Giao diện hiển thị câu hỏi
+          |-- QuestionViewModel_v2.kt  Lớp quản lý trạng thái và logic để hiển thị và tương tác với các câu hỏi
+          |-- RePasswordScreen.kt  Giao diện thay đổi mật khẩu
+          |-- SearchScreen.kt  Giao diện màn hình tìm kiếm
+          |-- SettingsDataStore.kt  Lớp quản lý lưu trữ và truy xuất cài đặt ứng dụng của người dùng
+          |-- SettingsScreen.kt  Giao diện cài đặt ứng dụng
+          |-- SettingsViewModel.kt  Lớp quản lý trạng thái và logic cho các thiết lập của người dùng cho ứng dụng
+          |-- UserProfileScreen.kt  Giao diện hiển thị thông tin tài khoản người dùng
+          |-- UserProfileViewModel.kt  Lớp quản lý trạng thái và logic cho các thiết lập của người dùng cho tài khoản
+      |-- theme/ 
+          |-- AppTheme.kt  Định nghĩa các chủ đề của ứng dụng như chế độ tối, màu chính, kích thước phông chữ và độ đậm phông chữ, được cung cấp bởi SettingsViewModel.
+                       |--Color.kt  Các màu sắc có thể sử dụng trong ứng dụng
+                       |-- Theme.kt  Cài đặt các giao diện có thể sử dụng trong ứng dụng
+	          |--Type.kt  Các kiểu font chữ màu chữ và kích thước độ đậm chữ có thể cài đặt trong ứng dụng
+|-- data/ 
+      |-- model/
+          |-- Comment.kt  Định nghĩa lớp dữ liệu của một bình luận
+          |-- CurrentUser.kt  Lưu thông tin người dùng hiện tại của ứng dụng
+          |-- Notification.kt   Định nghĩa lớp dữ liệu của một thông báo
+          |-- Post.kt  Định nghĩa lớp dữ liệu của một bài viết
+          |-- Question.kt  Định nghĩa lớp dữ liệu của một câu hỏi
+          |-- User.kt  Định nghĩa lớp dữ liệu của một tài khoản người dùng
+      |-- repository/
+          |-- ExampleComment  Danh sách bình luận demo
+          |-- ExampleHelp  Danh sách câu hỏi trợ giúp demo
+          |-- ExampleNotification  Danh sách thông báo demo
+          |-- ExamplePost  Danh sách bài viết demo
+          |-- ExampleUser  Danh sách tài khoản người dùng demo
+          |-- QuestionRepository  Danh sách câu hỏi demo
+
 ## 🚧 VII. Các tính năng đặc biệt
 🎨 Tùy chỉnh UI: màu chủ đạo, font chữ, độ đậm, chế độ sáng/tối.
 
