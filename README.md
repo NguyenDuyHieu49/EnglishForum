@@ -1,4 +1,4 @@
-# 🇬🇧 The English Forum – Báo cáo UI/UX
+# 🇬🇧 The English Forum 
 
 ## Thành viên nhóm
 Nguyễn Duy Hiệu.MSV 23010363
