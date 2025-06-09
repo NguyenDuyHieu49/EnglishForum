@@ -103,7 +103,7 @@ Phát triển ứng dụng **diễn đàn tiếng Anh chuyên biệt** với:
 ### 2. Cài đặt dự án
 
 ```bash
-git clone https://github.com/yourusername/the-english-forum.git
+git clone https://github.com/NguyenDuyHieu49/EnglishForum.git
 cd the-english-forum
 Mở bằng Android Studio:
 
