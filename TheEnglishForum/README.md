@@ -2,7 +2,6 @@
 
 ## Thành viên nhóm
 Nguyễn Duy Hiệu.MSV 23010363
-Vũ Đức Minh.MSV 23010381
 ## 📝 I. Tóm tắt
 
 Báo cáo giới thiệu và phân tích ứng dụng di động **The English Forum** – một diễn đàn học tiếng Anh tích hợp chức năng luyện tập hằng ngày và cá nhân hóa.  
