@@ -4,7 +4,7 @@
 ## 📝 I. Tóm tắt
 
 Báo cáo giới thiệu và phân tích ứng dụng di động **The English Forum** – một diễn đàn học tiếng Anh tích hợp chức năng luyện tập hằng ngày và cá nhân hóa.  
-Dự án được thực hiện bởi nhóm 1 
+Dự án được thực hiện bởi nhóm 9 
 ---
 
 ## ❓ II. Đặt vấn đề
